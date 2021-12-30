@@ -32,6 +32,8 @@ Através desta aplicação, será possível realizar a construção de código H
 
 ---
 
+## Requisitos do projeto
+
 ### 1. Adicione uma cor de fundo específica para a página
 
 Possuir cor de fundo: rgb(253, 251, 251)
