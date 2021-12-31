@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+.ball {
+  border-radius: 50px;
+  background-color: bisque;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+#reset-game {
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 5px;
+}
