@@ -21,7 +21,7 @@ function colorItem() {
     const listTask = list.children;
 
     for (let i = 0; i < listTask.length; i += 1) {
-      listTask[i].style.backgroundColor = 'white';
+      listTask[i].style.backgroundColor = '#fbffe2';
       event.target.style.backgroundColor = 'rgb(128, 128, 128)';
     }
   });
@@ -35,10 +35,10 @@ function taskCompleted() {
   list.addEventListener('dblclick', function (event) {
     if (event.target.className == 'completed') {
       event.target.className = '';
-      event.target.style.backgroundColor = 'white';
+      event.target.style.backgroundColor = '#fbffe2';
     } else {
       event.target.className = 'completed';
-      event.target.style.backgroundColor = 'white';
+      event.target.style.backgroundColor = '#fbffe2';
     }
   });
 }
