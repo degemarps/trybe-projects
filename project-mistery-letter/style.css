@@ -1,3 +1,41 @@
+* {
+  margin: 0%;
+  padding: 0%;;
+}
+
+body {
+  background-color: #CCD1E4;
+}
+
+.title {
+  padding-top: 40px;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#carta-texto {
+  font-size: 18px;
+  margin: 50px;
+}
+
+#carta-contador {
+  font-size: 18px;
+  margin: 40px;
+}
+
+#criar-carta {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #2F3A8F;
+  color: #FFF;
+}
+
 .newspaper {
   background-color: antiquewhite;
   font-family: 'Times New Roman';
