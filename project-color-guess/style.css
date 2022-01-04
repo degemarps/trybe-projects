@@ -1,5 +1,15 @@
 body {
   text-align: center;
+  background-color: #FFEBCC;
+}
+
+p {
+  font-size: 18px;
+}
+
+#balls {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .ball {
@@ -8,10 +18,15 @@ body {
   width: 100px;
   height: 100px;
   display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #000;
 }
 
 #reset-game {
   margin-top: 20px;
   font-size: 16px;
   padding: 5px;
+  background-color: #FFAFAF;
+  border-radius: 10px;
 }
