@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <input type="text" id="text-input" maxlength="60" />
 
-    <input type="file" id="meme-insert" accept="image/*" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="main">
+    <div class="inputs">
+      <input type="text" id="text-input" maxlength="60" />
+
+      <input type="file" id="meme-insert" accept="image/*" />
+    </div>
 
     <section id="meme-image-container">
       <p id="meme-text"></p>
 
-      <img src="" alt="" id="meme-image" />
+      <img src="" alt="Imagem meme" id="meme-image" />
     </section>
 
-    <button id="fire">Fire</button>
+    <div class="buttons">
+      <button class="button" id="fire">Fire</button>
 
-    <button id="water">Water</button>
+      <button class="button" id="water">Water</button>
 
-    <button id="earth">Earth</button>
+      <button class="button" id="earth">Earth</button>
+    </div>
 
     <section id="images">
       <img src="./imgs/meme1.png" alt="" id="meme-1" />
@@ -35,5 +42,7 @@
     </section>
 
     <script src="./script.js"></script>
-  </body>
+  </main>
+</body>
+
 </html>
