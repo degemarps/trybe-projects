@@ -61,7 +61,7 @@ const refreshPrice = () => {
   priceSection.innerHTML = '';
   const priceElement = document.createElement('p');
   sum = sum.toFixed(2).replace(/0+$/, '');
-  priceElement.innerHTML = parseFloat(sum);
+  priceElement.innerHTML = `R$ ${parseFloat(sum).toFixed(2)}`;
   priceSection.appendChild(priceElement);
   localStorage.setItem('totalPrice', parseFloat(sum));
 };
@@ -159,7 +159,7 @@ const getTotalPrice = () => {
     const priceElement = document.createElement('p');
     let price = parseFloat(localStorage.getItem('totalPrice'));
     price = price.toFixed(2).replace(/0+$/, '');
-    priceElement.innerHTML = parseFloat(price);
+    priceElement.innerHTML = `R$ ${parseFloat(price).toFixed(2)}`;
     priceSection.appendChild(priceElement);
   } catch (error) {
     console.log(error);
