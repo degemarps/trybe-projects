@@ -1,0 +1,15 @@
+.container-form {
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+}
+
+.container-inputs {
+  display: flex;
+  flex-flow: column;
+  width: 30%;
+}
+
+.button {
+  width: 20%;
+}
