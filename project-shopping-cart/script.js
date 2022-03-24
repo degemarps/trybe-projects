@@ -89,6 +89,10 @@ function createCartItemElement({ sku, name, salePrice }) {
 }
 
 const showProducts = async () => {
+  const price = parseFloat(localStorage.getItem('totalPrice'));
+  if (!price) {
+    localStorage.setItem('totalPrice', 0);
+  }
   addLoading();
   const data = await fetchProducts('computador');
   removeLoading();
