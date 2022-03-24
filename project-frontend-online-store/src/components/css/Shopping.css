@@ -1,0 +1,23 @@
+.button-shopping {
+  color: #FFF;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  background-color: #000;
+}
+
+.list-products-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.list-products-container ul li {
+  list-style: none;
+}
+
+.product-quantity {
+  display: flex;
+  align-items: center;
+}
