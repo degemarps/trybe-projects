@@ -1,0 +1,10 @@
+.footer-menu {
+  background: white;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.8;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
